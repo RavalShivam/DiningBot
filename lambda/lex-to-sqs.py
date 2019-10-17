@@ -54,10 +54,6 @@ def delegate(session_attributes, slots):
         }
     }
 
-
-""" --- Helper Functions --- """
-
-
 def parse_int(n):
     try:
         return int(n)
