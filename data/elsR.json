@@ -37,7 +37,7 @@
 { "create" : { "_index" : "restaurant", "_type" : "_doc", "_id" : "19" } }
 {"id": "WbZhH2j8i3GhNsOsviM1VQ", "cuisine": "korean"}
 { "create" : { "_index" : "restaurant", "_type" : "_doc", "_id" : "20" } }
-{"id": "8Gg_SoA5TA7pLNB-xuPhPw", "cuisine": "kosher"}
+{"id": "8Gg_SoA5TA7pLNB-xuPhPw", "cuisine": "kosher" }
 { "create" : { "_index" : "restaurant", "_type" : "_doc", "_id" : "21" } }
 {"id": "bMhqh_k_QZJMnVstIJzxRw", "cuisine": "vietnamese"}
 { "create" : { "_index" : "restaurant", "_type" : "_doc", "_id" : "22" } }
