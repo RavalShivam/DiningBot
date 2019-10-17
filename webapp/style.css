@@ -1,0 +1,61 @@
+body {
+    background-color: darkslategrey;
+    color: azure;
+    font-size: 1.1em;
+}
+h1 {
+    color: coral;
+}
+#intro {
+    font-size: 1.3em;
+}
+.res-div{
+text-align: center;
+font-family: Courier New;
+}
+.colorful {
+    color: orange;
+}
+.container{
+	align-items: center;
+}
+.chat-box{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+font-family: Courier New;
+}
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 3px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+.ip{
+border: none;
+    border-bottom: 1px solid green;
+    width: 300px;
+}
+::placeholder { 
+	opacity: 0.6;
+	}
+.user {
+    color: #d57b7b;
+}
+
+.bot {
+    color: #679567;
+}
+.title{
+	background-color: #fafafa;
+    color: #298829;
+    height: 80px;
+    padding-top: 16px;
+    font-variant-caps: all-petite-caps;
+}
+
+
