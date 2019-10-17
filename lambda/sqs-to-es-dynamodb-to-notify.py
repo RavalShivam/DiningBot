@@ -14,6 +14,7 @@ def lambda_handler(event, context):
     index = "restaurant/"
     search = "_search"
     esURL = url + index + search
+    
     for message in queue.receive_messages():
         print("Message: ", message.body)
         data = json.loads(message.body)
