@@ -5,7 +5,7 @@ var cognito_token = url_string.substring(url_string.indexOf("=") + 1,url_string.
 
 AWS.config.region = 'us-east-1'; // Region
 AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-    IdentityPoolId: 'us-east-1:f2b048f4-34d9-4ba5-b750-aeabc2e0a4b9',
+    IdentityPoolId: '<identity-pool-id>',
 	Logins: {
 	   'cognito-idp.us-east-1.amazonaws.com/us-east-1_XzKUHccNZ': cognito_token
 	}
@@ -15,7 +15,7 @@ setTimeout(function() {
 	if(cognito_token=="" || AWS.config.credentials.sessionToken==""){
 
 		
-		var appCilentId = '5gpfvguuu4ltgppg018c3q5kgq';
+		var appCilentId = '<appclient-id>';
 		var callbackUrl = 'https://sample-102020.s3.amazonaws.com/index.html';
 		var domainName = 'https://tirupal.auth.us-east-1.amazoncognito.com';
 
@@ -80,7 +80,7 @@ function receiveMessageFromApi(inputText){
 
     var additionalParams = {
       headers: {
-        "x-api-key": "UbK8pC2c8KZmzYOgKfXu7GnuBzUMW3I94mCPnN56",
+        "x-api-key": "<api-key>",
       },
       queryParams: {}
     };
